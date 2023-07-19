@@ -1,0 +1,28 @@
+# python -m venv env envarmen t (muhit ) yaratadi
+
+# env ni activatce qlishdan oldin  Set-ExecutionPolicy Unrestricted -Force 
+
+# env\Scripts\activate activate qliadi 
+
+## requirement.txt bu bizni ishlat gan kutubhona yoki fremworkni  versiyasini saqlovchi file
+## pip freeze requirement txt  => saqlash 
+## pip freeze requirement txt  => ornatish
+
+## Django project yaratishni boshlaymiz
+## django-admin startproject config  # bu kamanda proekt sozlamalarni yartadi
+## django-admin startproject config .
+## python manage.py migrate  # bu kamanda malumotlarni saqlash uchun (database ,sqlite) ni faollashtiradi
+## python manage.py runserver  # bu kamanda django loyihamizni ishga tushiradi
+## python manage.py createsuperuser # bu kamanda django loyihamizda superuser yaratadi
+## python manage .py startapp app name
+
+
+
+##  models bu bizning projectimizni skeleti
+
+## python manage.py makemigrations  => migration yaratib beradi => database tiliga ogirib beradi
+
+## python manage.py migrate => bu data basega saqlab beradi.   biror madel yoki table qoshilganda mi
+
+#null=true => database ga null yani (0) bolish uchun ruxsat beradi
+# blank = true  => filed yoki label uchun hech narsa kiritmaslikka ruxsat beradi.
